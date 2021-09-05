@@ -1,4 +1,4 @@
-@import url('/Users/georgengatha/Documents/Udacity/Personal Blog/Personal Blog Website/CSS/layout.css');
-@import url('/Users/georgengatha/Documents/Udacity/Personal Blog/Personal Blog Website/CSS/media.css');
-@import url('/Users/georgengatha/Documents/Udacity/Personal Blog/Personal Blog Website/CSS/photos.css');
-@import url('/Users/georgengatha/Documents/Udacity/Personal Blog/Personal Blog Website/CSS/socialmedia.css');
+@import url('../CSS/layout.css');
+@import url('../CSS/media.css');
+@import url('../CSS/photos.css');
+@import url('../CSS/socialmedia.css');
