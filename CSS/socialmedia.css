@@ -1,7 +1,7 @@
 @import url("css/links.css");
 
-.feature>facebook {
-    background: #3B5998;
+.feature > facebook {
+    background: #3b5998;
     color: white;
     padding: 20px;
     font-size: 30px;
@@ -12,10 +12,10 @@
     display: none;
     list-style-type: none;
     padding: 0;
-  }
+}
 
-.feature>twitter {
-    background: #55ACEE;
+.feature > twitter {
+    background: #55acee;
     color: white;
     padding: 20px;
     font-size: 30px;
@@ -26,10 +26,9 @@
     display: none;
     list-style-type: none;
     padding: 0;
-  }
-  
-  
-  .feature>linkedin {
+}
+
+.feature > linkedin {
     background: #007bb5;
     color: white;
     padding: 20px;
@@ -42,9 +41,9 @@
     display: none;
     list-style-type: none;
     padding: 0;
-  }
-  
-  .feature>youtube {
+}
+
+.feature > youtube {
     background: #bb0000;
     color: white;
     padding: 20px;
@@ -56,9 +55,9 @@
     display: block;
     list-style-type: none;
     padding: 0;
-  }
-  
-  .feature>instagram {
+}
+
+.feature > instagram {
     background: red;
     color: white;
     padding: 20px;
@@ -70,4 +69,5 @@
     display: block;
     list-style-type: none;
     padding: 0;
-  }
+}
+
