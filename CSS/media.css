@@ -5,10 +5,11 @@
         grid-template-columns: 30px 250px;
         grid-template-rows: 250px 600px 30px;
         grid-template-areas:
-            "hd hd hd hd hd hd hd hd"
-            "sb cont cont  cont  cont  cont cont abt"
-            "archv cont1 cont1 cont2 cont2 cont3 cont3  sm"
-            "ft ft ft ft ft ft ft ft";
+        "hd hd hd hd hd hd hd hd"
+        "sb cont cont  cont  cont  cont cont abt"
+        "archv cont1 cont1 cont2 cont2 cont3 cont3 abt"
+        "sm sm sm sm sm sm sm sm "
+        "ft ft ft ft ft ft ft ft";
         border: 2px white;
     }
 }
