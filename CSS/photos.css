@@ -1,37 +1,33 @@
 @import url("css/links.css");
 .photo1 {
-    /*float: left;*/
-    border: 1px dotted black;
+    border: 0.3px dotted black;
     margin: auto;
-    padding: auto;
+    padding: 1px;
     display: inline-block;
     height: auto;
     width: auto;
     margin-top: auto;
-    object-fit: cover;
+    position: relative;
+    /* object-fit: cover;*/
 }
 .photo2 {
-    /*float: left;*/
-    border: 1px dotted black;
+    border: 0.3px dotted black;
     margin: auto;
     padding: auto;
     display: inline-block;
     height: auto;
     width: auto;
     margin-top: auto;
-    object-fit: fill;
+    object-fit: contain;
 }
-
 
 .photo3 {
-    /*float: left;*/
-    border: 1px dotted black;
+    border: 0.3px dotted black;
     margin: auto;
     padding: auto;
     display: inline-block;
     height: auto;
     width: auto;
     margin-top: auto;
-    object-fit: cover;
+    object-fit: contain;
 }
-

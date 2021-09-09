@@ -1,4 +1,11 @@
 
+/*Small to Medium Screens*/
+@media (min-width: 600px) and (max-width: 900px) {
+    .full-width-img {
+        margin: auto;
+        width: auto;
+    }
+}
 html {
     background: whitesmoke;
 }
@@ -68,10 +75,10 @@ li {
     padding: 10px 20px;
 }*/
 a:hover {
-background-color: #ddd;
-color:black
+    background-color: #ddd;
+    color: black;
 }
-.content1{
+.content1 {
     display: inline;
     text-align: center;
     padding: 5px 5px;
@@ -79,12 +86,12 @@ color:black
     margin-bottom: 20px;
 }
 .button {
-    background-color:blue;
-    border:none;
-    color:none;
+    background-color: blue;
+    border: none;
+    color: none;
     padding: 10px 10px 10px 10px;
     text-align: center;
-    text-decoration:none;
+    text-decoration: none;
     display: inline-block;
     font-size: 16px;
     margin: 5px 5px 5px 5px;
@@ -92,7 +99,6 @@ color:black
     height: 100px;
     width: 200px;
     text-transform: uppercase;
-    
 }
 .feature {
     display: inline-flex;
@@ -158,4 +164,3 @@ ul.fa li {
     background-color: whitesmoke;
     color: blue;
 }
-

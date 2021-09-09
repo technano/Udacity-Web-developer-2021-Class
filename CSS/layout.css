@@ -49,15 +49,6 @@ body {
     justify-content: normal;
 }
 
-/*.fa {
-    padding: 20px;
-    font-size: 30px;
-    width: 50px;
-    text-align: center;
-    text-decoration: none;
-    margin: 5px 2px;
-  }*/
-
 .feature > hover {
     opacity: 0.7;
 }
@@ -94,9 +85,15 @@ li {
 .sidebar {
     grid-area: sb;
     background-color: whitesmoke;
+    display: block;
 }
 .sidebar > h2 {
     color: #4caf50;
+    height: 100%;
+    width: 100%;
+    display: inline-flexbox;
+    margin: 0;
+    padding: 0;
 }
 
 .content1 {
@@ -104,11 +101,16 @@ li {
     background-color: whitesmoke;
     height: 100%;
     width: 100%;
-    display: inline-block;
-    margin: auto;
-    padding: auto;
-    
+    display: inline-flexbox;
+    margin: 0;
+    padding: 0;
 }
+
+figure {
+    display: block;
+    margin-inline-start: 0mm;
+}
+
 .content1 > h2 {
     color: #4ca450;
 }
@@ -137,7 +139,6 @@ li {
     display: inline-block;
     margin: 0;
     padding: 0;
-    
 }
 .content5 {
     grid-area: cont2;
@@ -148,15 +149,17 @@ li {
     margin: 0;
     padding: 0;
 }
+
 .content6 {
     grid-area: cont3;
     background-color: whitesmoke;
     width: auto;
     height: auto;
-    display: inline-block;
+    display: block;
     margin: 0;
     padding: 0;
 }
+
 .content4 > h2 {
     color: blue;
 }
@@ -203,4 +206,3 @@ li {
     width: auto;
     height: auto;
 }
-
