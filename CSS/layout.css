@@ -155,7 +155,7 @@ figure {
     background-color: whitesmoke;
     width: auto;
     height: auto;
-    display: block;
+    display: inline-block;
     margin: 0;
     padding: 0;
 }

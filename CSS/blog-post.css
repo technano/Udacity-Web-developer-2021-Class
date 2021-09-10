@@ -1,4 +1,3 @@
-
 /*Small to Medium Screens*/
 @media (min-width: 600px) and (max-width: 900px) {
     .full-width-img {
@@ -34,7 +33,7 @@ body {
     margin: auto;
     background-color: whitesmoke;
     font-family: Georgia, "Times New Roman", Times, serif;
-    width: 50%;
+    width: auto;
 }
 
 p {
@@ -53,6 +52,7 @@ li {
     height: 30px;
     border-radius: 50%;
 }
+
 .blog-card {
     display: grid;
     background-color: white;
@@ -84,6 +84,7 @@ a:hover {
     padding: 5px 5px;
     margin-top: 15px;
     margin-bottom: 20px;
+    display: inline-block;
 }
 .button {
     background-color: blue;

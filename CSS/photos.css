@@ -7,13 +7,12 @@
     height: auto;
     width: auto;
     margin-top: auto;
-    position: relative;
-    /* object-fit: cover;*/
+    object-fit: contain;
 }
 .photo2 {
     border: 0.3px dotted black;
     margin: auto;
-    padding: auto;
+    padding: 1px;
     display: inline-block;
     height: auto;
     width: auto;
@@ -24,10 +23,11 @@
 .photo3 {
     border: 0.3px dotted black;
     margin: auto;
-    padding: auto;
+    padding: 1px;
     display: inline-block;
     height: auto;
     width: auto;
     margin-top: auto;
     object-fit: contain;
 }
+
